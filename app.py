@@ -5,7 +5,7 @@ import pandas as pd
 
 app = Flask(__name__)
 model1 = pickle.load(open('mainprojectNaiveBayes.pkl','rb'))
-model2 = pickle.load(open('mainprojectLog.pkl','rb'))
+model2 = pickle.load(open('mainprojectlog.pkl','rb'))
 model3 = pickle.load(open('mainproject.pkl','rb'))
 model4 = pickle.load(open('mainprojectforest.pkl','rb'))
 
